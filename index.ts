@@ -136,3 +136,10 @@ export {
  *   return <App />;
  * }
  */
+
+// Shared Session
+export { SharedSessionManager, SharedSessionView, useSharedSession, detectFileType, formatTime, fileTypeIcon } from './components/SharedSessionUI';
+export type { SharedFile, SharedSession, SessionMessage, AgentReaction, FileType, PlaybackState } from './engine/SharedSession';
+
+// Synthia Server Client
+export * from './engine/SynthiaClient';
